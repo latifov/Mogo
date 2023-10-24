@@ -19,4 +19,4 @@ A one page website template built in Photoshop by Alexandr Karsakov and released
 
 ## Developers
 
-- [Delevoper Name](https://github.com/TemoDev)
+- [Theme author](https://github.com/TemoDev)
