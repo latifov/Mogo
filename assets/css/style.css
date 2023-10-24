@@ -646,3 +646,10 @@ hr {
 	background-color: #e93535;
 	color: #fff;
 }
+
+/*logos section styles*/
+
+.logos {
+	display:  flex;
+	justify-content: space-between;
+}
