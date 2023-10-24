@@ -346,6 +346,21 @@ hr {
 
 .card__info {
 	margin-top: 20px;
+	text-align: center;
+}
+
+.card__name{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.card__prof{
+	color: #999;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif
+	font-weight: 300;
 }
 
 .statistics {
