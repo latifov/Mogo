@@ -1,28 +1,22 @@
 <p align="center">
-      <img src="https://i.ibb.co/p41gpCH/26453036.jpg" width="726">
+      <img src="https://i.ibb.co/ZBqQKy4/mogo.png" width="726">
 </p>
 
 <p align="center">
-   <img src="" alt="Unity Version">
-   <img src="" alt="Game Version">
-   <img src="" alt="License">
+   <img src="https://img.shields.io/badge/structure-html-orange" alt="">
+   <img src="https://img.shields.io/badge/styles-css-bodgerblue" alt="">
 </p>
 
 ## About
 
-About Text Here
+MoGo: Free one page PSD template. 
+A one page website template built in Photoshop by Alexandr Karsakov and released exclusively for our readers.
 
-## Documentation
+## Theme page
 
-Documentation Here
-
-## Distribute
-
-- [Service Name](Page Link)
+- [MoGo on Github](https://temodev.github.io/Mogo/index.html)
 
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
-
-## License
+- [Delevoper Name](https://github.com/TemoDev)
