@@ -774,3 +774,57 @@ hr {
 
 	background-color: orange;
 }
+
+.blog {
+	display: flex;
+	text-align: left;
+}
+
+.blog__item {
+	width: 30%;
+}
+
+.blog__header {
+	position: relative;
+}
+
+.blog__photo {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.blog__date {
+	padding: 10px 20px;
+	position: absolute;
+	bottom: 10px;
+	left: -10px;
+	background-color: #95e1d3;
+	color: #fff;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.blog__date-day {
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Roboto', serif;
+	font-style: normal;
+	line-height: 1;
+}
+
+.blog__title {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #333;
+}
+
+.blog__title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.blog__title a:hover {
+	text-decoration: underline;
+}
