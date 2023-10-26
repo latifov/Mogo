@@ -902,3 +902,9 @@ hr {
 	padding-top: 65px;
 	background-color: #f8f8f8;
 }
+
+.footer__logo {
+	font-size: 46px;
+	font-weight: 700;
+	color: #ccc;
+}
