@@ -907,4 +907,12 @@ hr {
 	font-size: 46px;
 	font-weight: 700;
 	color: #ccc;
+	margin-bottom: 30px;
+}
+
+.footer__text {
+	font-size: 15px;
+	color: #999;
+	text-align: left;
+	margin-bottom: 30px;
 }
