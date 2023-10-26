@@ -949,6 +949,11 @@ hr {
 	margin-left: 10px;
 	font-size: 18px;
 	color: #95e1d3;
+	transition: color .2s linear;
+}
+
+.footer_social-content a:hover {
+	color: #4ab39f;
 }
 
 .footer__inner {
@@ -960,4 +965,53 @@ hr {
 .subscribe {
 	width: 100%;
 	max-width: 380px;
+	display: flex;
+}
+
+.subscribe__input {
+	outline: none;
+
+	width: 60%;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	font-family: 'Roboto', serif;
+	padding: 12px;
+	line-height: 1.1;
+	color: #333;
+	border-right: 0;
+}
+
+
+.subscribe__input::placeholder {
+	color: #ccc;
+}
+
+.subscribe__btn {
+	widows: 40%;
+	height: 40px;
+	background-color: #95e1d3;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	line-height: 1.1;
+	transition: background 0.2s linear;
+}
+
+.subscribe__btn:hover {
+	background-color: #4ab39f;
+}
+
+.subscribe__input:focus,
+.subscribe__btn:focus {
+	outline: none;
+	border-color: #95e1d3
 }
