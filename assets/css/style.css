@@ -778,10 +778,11 @@ hr {
 .blog {
 	display: flex;
 	text-align: left;
+	justify-content: space-between;
 }
 
 .blog__item {
-	width: 30%;
+	width: 31%;
 }
 
 .blog__header {
@@ -844,4 +845,19 @@ hr {
 .blog__footer {
 	padding-top: 14px;
 	border-top: 1px solid #e5e5e5;
+
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	font-family: 'Roboto', serif;
+}
+
+.blog-stat__item {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.blog-stat__item i {
+	color: #95e1d3
 }
