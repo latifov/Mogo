@@ -916,3 +916,37 @@ hr {
 	text-align: left;
 	margin-bottom: 30px;
 }
+
+.footer_social {
+	margin-bottom: 25px;
+}
+
+
+.footer_social-header {
+	font-size: 14px;
+	color: #000;
+
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+}
+
+.footer_social-header b {
+	font-size: 18px;
+}
+
+.footer_social-content {
+	padding-top: 15px;
+	font-size: 15px;
+	color: #999;
+	font-style: italic;
+	font-weight: 300;
+	font-family: 'Roboto', serif;
+}
+
+.footer_social-content a {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-size: 18px;
+	color: #95e1d3;
+}
