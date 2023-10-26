@@ -894,3 +894,11 @@ hr {
 .map__title a:hover {
 	text-decoration: underline;
 }
+
+
+/* Footer */
+
+.footer {
+	padding-top: 65px;
+	background-color: #f8f8f8;
+}
