@@ -950,3 +950,14 @@ hr {
 	font-size: 18px;
 	color: #95e1d3;
 }
+
+.footer__inner {
+	padding-bottom: 65px;
+}
+
+/* subscribe */
+
+.subscribe {
+	width: 100%;
+	max-width: 380px;
+}
