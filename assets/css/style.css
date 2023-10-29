@@ -89,7 +89,8 @@ hr {
 /* Container */
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1230px;
+	padding: 0 15px;
 	margin: 0 auto;
 }
 
@@ -1120,4 +1121,57 @@ hr {
 
 .copyright span {
 	color: red;
+}
+
+/* Десктоп */
+@media (max-width: 1230px) {
+
+	/* Intro */
+	.intro__title {
+		font-size: 120px;
+	}
+
+	.intro__suptitle {
+		font-size: 52px;
+	}
+
+}
+
+/* Планшет альбом */
+
+@media (max-width: 990px) {
+
+	/* Intro */
+	.intro__title {
+		font-size: 80px;
+	}
+
+	.intro__suptitle {
+		font-size: 32px;
+	}
+
+}
+
+
+/* Планшет */
+
+@media (max-width: 770px) {
+	.nav {
+		display: none;
+	}
+}
+
+/* мобильный */
+
+@media (max-width: 575px) {
+
+	/* Intro */
+	.intro__title {
+		font-size: 40px;
+	}
+
+	.intro__suptitle {
+		font-size: 22px;
+	}
+
 }
