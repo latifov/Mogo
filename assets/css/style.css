@@ -1038,6 +1038,9 @@ hr {
 	border: 1px solid #fff;
 }
 
+.instagram__item img {
+	display: block;
+}
 
 /* subscribe */
 
