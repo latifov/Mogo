@@ -305,13 +305,15 @@ hr {
 }
 
 .card {
-	margin-top: 80px;
+	margin-top: 80px -15px 0;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .card__item {
-	width: 380px;
+	width: 33.333333%;
+	padding: 0 15px;
 	/* opacity: 1; */
 }
 
@@ -342,6 +344,8 @@ hr {
 
 .card__image img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 	transition: opacity .1s linear;
 }
 
@@ -1168,6 +1172,21 @@ hr {
 		padding: 40px 0;
 	}
 
+	.card {
+		margin-top: 50px;
+		justify-content: center;
+	}
+
+	.card__item {
+		width: 100%;
+		max-width: 410px;
+		margin-bottom: 30px;
+	}
+
+	.card__item:last-child {
+		margin-bottom: 0;
+	}
+
 	/* slider */
 	.slider__text {
 		display: none;
@@ -1210,7 +1229,8 @@ hr {
 	}
 
 	.section__title:after {
-		margin: 20px 0;
+		margin: 20px auto;
+		text-align: center;
 	}
 
 }
