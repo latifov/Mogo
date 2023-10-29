@@ -1162,10 +1162,13 @@ hr {
 		display: none;
 	}
 
+	/* section */
+
 	.section {
 		padding: 40px 0;
 	}
 
+	/* slider */
 	.slider__text {
 		display: none;
 	}
@@ -1190,6 +1193,24 @@ hr {
 
 	.intro__suptitle {
 		font-size: 22px;
+	}
+
+	/* section */
+
+	.section__header {
+		margin-bottom: 50px;
+	}
+
+	.section__suptitle {
+		font-size: 20px;
+	}
+
+	.section__title {
+		font-size: 24px;
+	}
+
+	.section__title:after {
+		margin: 20px 0;
 	}
 
 }
