@@ -232,7 +232,7 @@ hr {
 	top: -3px;
 	left: 0;
 	z-index: 1;
-	background-color: orange;
+	background-color: #e93535;
 }
 
 .slider__numbers {
@@ -1156,10 +1156,28 @@ hr {
 /* Планшет */
 
 @media (max-width: 770px) {
+
+	/* меню */
 	.nav {
 		display: none;
 	}
+
+	.section {
+		padding: 40px 0;
+	}
+
+	.slider__text {
+		display: none;
+	}
+
+	.slider__item.active:before {
+		width: 50%;
+	}
+
 }
+
+/* слайдер на главной */
+
 
 /* мобильный */
 
