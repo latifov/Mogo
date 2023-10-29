@@ -989,6 +989,46 @@ hr {
 	font-size: 14px;
 }
 
+/* Blogs */
+
+.blogs {}
+
+.blogs__item {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 30px;
+}
+
+.blogs__image {
+	width: 120px;
+	height: 80px;
+}
+
+.blogs__content {
+	padding-left: 20px;
+}
+
+.blogs__title {
+	color: #333;
+	font-size: 12px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.blogs__date {
+	font-size: 13px;
+	color: #999;
+	font-style: italic;
+	font-weight: 300;
+	font-family: 'Roboto', serif;
+}
+
+.blogs__title:hover {
+	text-decoration: underline;
+}
+
 /* subscribe */
 
 .subscribe {
