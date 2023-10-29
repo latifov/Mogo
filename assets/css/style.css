@@ -425,15 +425,20 @@ hr {
 
 .services {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .services__item {
-	flex: 1 1 0;
+	width: 33.3333%;
 	position: relative;
-	padding-left: 70px;
-	padding-right: 20px;
+	padding: 0 35px 40px 85px;
 	/* готовый блок секшн имеет текст алайн центр, поэтому правлю тут. текст рядом с иконками не отцентрирован в макете */
 	text-align: left;
+	margin-bottom: 40px;
+}
+
+.services__item--border {
+	border-bottom: 1px solid var(--blue);
 }
 
 .services__img {
@@ -1159,6 +1164,8 @@ hr {
 		font-size: 32px;
 	}
 
+	/* статистика */
+
 	.stat {
 		justify-content: center;
 	}
@@ -1176,7 +1183,13 @@ hr {
 		border-right: 0;
 	}
 
-	/* статистика */
+	.services__item {
+		width: 50%;
+	}
+
+	.services__item--border {
+		border-bottom: 0;
+	}
 
 }
 
@@ -1220,6 +1233,20 @@ hr {
 		width: 50%;
 	}
 
+	.services {
+		justify-content: center;
+	}
+
+	.services__item {
+		width: 100%;
+		max-width: 400px;
+		padding-left: 55px;
+		padding-right: 0;
+	}
+
+	.services__img {
+		left: 0;
+	}
 }
 
 /* слайдер на главной */
