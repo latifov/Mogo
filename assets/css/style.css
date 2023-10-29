@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
+
+:root {
+	--blue: #95e1d3;
+	--darker-blue: #4ab39f;
+	--orange: #da9000;
+}
+
 *,
 *:before,
 *:after {
@@ -40,7 +47,7 @@ hr {
 	justify-content: center;
 	width: 100%;
 	height: 100vh;
-	background-color: #da9000;
+	background-color: var(--orange);
 	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 	/*	-webkit-background-size: cover;
 	background-attachment: 	cover;*/
@@ -958,6 +965,26 @@ hr {
 
 .footer__inner {
 	padding-bottom: 65px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__col--first {
+	width: 40%;
+}
+
+.footer__col--second {
+	width: 29%;
+}
+
+.footer__col--third {
+	width: 22%;
+}
+
+.footer__title {
+	text-transform: uppercase;
+	color: #333;
+	font-size: 14px;
 }
 
 /* subscribe */
@@ -981,7 +1008,7 @@ hr {
 	font-family: 'Roboto', serif;
 	padding: 12px;
 	line-height: 1.1;
-	color: #333;
+	color: #ccc;
 	border-right: 0;
 }
 
@@ -991,7 +1018,7 @@ hr {
 }
 
 .subscribe__btn {
-	widows: 40%;
+	width: 40%;
 	height: 40px;
 	background-color: #95e1d3;
 	border: none;
@@ -1007,11 +1034,11 @@ hr {
 }
 
 .subscribe__btn:hover {
-	background-color: #4ab39f;
+	background-color: var(--darker-blue);
 }
 
 .subscribe__input:focus,
 .subscribe__btn:focus {
 	outline: none;
-	border-color: #95e1d3
+	border-color: var(--blue);
 }
