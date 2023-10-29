@@ -1103,3 +1103,16 @@ hr {
 	outline: none;
 	border-color: var(--blue);
 }
+
+.copyright {
+	padding: 20px 0;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.copyright span {
+	color: red;
+}
