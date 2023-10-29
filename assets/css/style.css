@@ -1046,6 +1046,11 @@ hr {
 
 .instagram__item img {
 	display: block;
+	transition: scale .2s linear;
+}
+
+.instagram__item img:hover {
+	scale: 1.1;
 }
 
 /* subscribe */
