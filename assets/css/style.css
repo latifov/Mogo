@@ -1010,9 +1010,11 @@ hr {
 .blogs__title {
 	color: #333;
 	font-size: 12px;
-	line-height: 1.2;
+	line-height: 1.5;
+	margin-bottom: 5px;
 	text-transform: uppercase;
 	text-decoration: none;
+	display: block;
 }
 
 .blogs__date {
@@ -1031,11 +1033,15 @@ hr {
 
 .instagram {
 	display: flex;
+	flex-wrap: wrap;
+	/* для переноса элементов на новую строку (для отображения плиткой, а не одной строкой) */
+	justify-content: space-between;
+
 }
 
 .instagram__item {
-	flex: 1 1 0;
-	border: 1px solid #fff;
+	width: 32.3333%;
+	border-bottom: 1px solid #fff;
 }
 
 .instagram__item img {
