@@ -982,6 +982,8 @@ hr {
 }
 
 .footer__title {
+	margin: 30px 0;
+
 	text-transform: uppercase;
 	color: #333;
 	font-size: 14px;
