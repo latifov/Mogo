@@ -1439,6 +1439,15 @@ hr {
 
 	.works__col {
 		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
 	}
 
+	.works__item {
+		margin-bottom: 5px;
+	}
+
+	.works__item:last-child {
+		margin-bottom: 0;
+	}
 }
