@@ -584,15 +584,19 @@ hr {
 }
 
 .reviews__item {
-	padding-left: 205px;
+	padding-left: 255px;
 	position: relative;
 	text-align: left;
 }
 
 .reviews__photo {
+	display: block;
+	width: 210px;
+	height: 210px;
+
 	border: 2px solid orange;
-	width: 100%;
-	max-width: 145px;
+	border-radius: 50%;
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1160,6 +1164,12 @@ hr {
 		font-size: 52px;
 	}
 
+	/* reviews */
+
+	.reviews__text {
+		font-size: 20px;
+	}
+
 }
 
 /* Планшет альбом */
@@ -1202,7 +1212,22 @@ hr {
 		border-bottom: 0;
 	}
 
+	/* reviews */
+
+	.reviews {
+		padding: 0 60px;
+	}
+
+	.reviews__photo {
+		width: 150px;
+		height: 150px;
+	}
+
+	.reviews__item {
+		padding-left: 175px;
+	}
 }
+
 
 
 /* Планшет */
@@ -1273,6 +1298,25 @@ hr {
 	.wedo__item {
 		width: 100%;
 	}
+
+	/* Reviews */
+
+	.reviews__photo {
+		position: static;
+		margin: 0 auto 20px;
+	}
+
+	.reviews__item {
+		padding-left: 0;
+	}
+
+	.reviews__text {
+		font-size: 16px;
+	}
+
+	.reviews__author {
+		font-size: 20px;
+	}
 }
 
 /* слайдер на главной */
@@ -1335,5 +1379,15 @@ hr {
 		width: 180px;
 		bottom: -50px;
 		right: -80px;
+	}
+
+	/* Reviews */
+
+	.reviews {
+		padding: 0;
+	}
+
+	.reviews__btn {
+		top: 18%;
 	}
 }
