@@ -1238,6 +1238,11 @@ hr {
 	.reviews__item {
 		padding-left: 175px;
 	}
+
+	/* Clients */
+	.clients__item {
+		width: 100%;
+	}
 }
 
 
