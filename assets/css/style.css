@@ -1087,6 +1087,8 @@ hr {
 .instagram__item img {
 	display: block;
 	transition: scale .2s linear;
+	max-width: 100%;
+	height: auto;
 }
 
 .instagram__item img:hover {
