@@ -708,6 +708,7 @@ hr {
 	padding: 0 15px;
 }
 
+/* делаем картинки адаптивными */
 .logos__img {
 	display: block;
 	max-width: 100%;
@@ -1400,5 +1401,12 @@ hr {
 
 	.reviews__btn {
 		top: 18%;
+	}
+
+	/* Logos */
+
+	/* перенос картинок на новую строку */
+	.logos {
+		flex-wrap: wrap;
 	}
 }
