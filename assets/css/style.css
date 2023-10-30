@@ -830,6 +830,7 @@ hr {
 
 .blog {
 	display: flex;
+	flex-wrap: wrap;
 	text-align: left;
 	justify-content: space-between;
 }
@@ -1247,8 +1248,12 @@ hr {
 
 	.clients__item {
 		width: 100%;
+		padding-right: 0;
 	}
 
+	.clients__item:last-child {
+		margin-bottom: 0;
+	}
 }
 
 
@@ -1350,6 +1355,16 @@ hr {
 	.works__col {
 		flex: none;
 		width: 50%;
+	}
+
+	.blog {
+		max-width: 380px;
+		margin: 0 auto;
+	}
+
+	.blog__item {
+		width: 100%;
+
 	}
 }
 
@@ -1460,5 +1475,24 @@ hr {
 
 	.works__item:last-child {
 		margin-bottom: 0;
+	}
+
+	/* clients */
+
+	.clients__photo {
+		position: static;
+	}
+
+	.clients__item {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.clients__text::before {
+		margin: 15px auto;
+	}
+
+	.section--clients {
+		background: #f8f8f8
 	}
 }
