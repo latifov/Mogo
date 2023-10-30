@@ -1329,6 +1329,17 @@ hr {
 	.reviews__author {
 		font-size: 20px;
 	}
+
+	/* our works */
+
+	.works {
+		flex-wrap: wrap;
+	}
+
+	.works__col {
+		flex: none;
+		width: 50%;
+	}
 }
 
 /* слайдер на главной */
@@ -1421,6 +1432,13 @@ hr {
 	.logos__img {
 		/* центрируем картинки */
 		margin: 0 auto;
+	}
+
+
+	/* works */
+
+	.works__col {
+		width: 100%;
 	}
 
 }
