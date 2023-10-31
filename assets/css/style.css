@@ -230,12 +230,12 @@ hr {
 
 .nav-toggle.active .nav-toggle__item::before {
 	transform-origin: left top;
-	transform: rotate(45deg);
+	transform: rotate(45deg) translateX(-3px);
 }
 
 .nav-toggle.active .nav-toggle__item::after {
 	transform-origin: left bottom;
-	transform: rotate(-45deg);
+	transform: rotate(-45deg) translateX(-3px);
 }
 
 .nav-toggle__item::before,
