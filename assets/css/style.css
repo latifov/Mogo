@@ -221,6 +221,8 @@ hr {
 	bottom: 0;
 	left: 0;
 	margin: auto;
+
+	transition: background .2 linear;
 }
 
 .nav-toggle.active .nav-toggle__item {
@@ -247,6 +249,8 @@ hr {
 	background-color: #fff;
 	left: 0;
 	z-index: 1;
+
+	transition: transform .2s linear;
 }
 
 .nav-toggle__item::before {
