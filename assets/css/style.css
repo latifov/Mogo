@@ -1381,7 +1381,18 @@ hr {
 
 	/* меню */
 	.nav {
-		display: none;
+		/* display: none; */
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+		background-color: #da9000;
+
+	}
+
+	.nav__link {
+		display: block;
+		/* каждый пункт меню с новой строки */
 	}
 
 	.nav-toggle {
