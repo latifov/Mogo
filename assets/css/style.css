@@ -191,6 +191,11 @@ hr {
 	z-index: 1;
 	width: 30px;
 	padding: 10px 0;
+	border: 0;
+	background: none;
+
+	font-size: 0;
+	color: transparent;
 
 }
 
