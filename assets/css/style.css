@@ -1382,6 +1382,7 @@ hr {
 	/* меню */
 	.nav {
 		/* display: none; */
+		width: 100%;
 		position: absolute;
 		top: 100%;
 		left: 0;
@@ -1392,6 +1393,8 @@ hr {
 
 	.nav__link {
 		display: block;
+		margin: 0;
+		padding: 5px 20px;
 		/* каждый пункт меню с новой строки */
 	}
 
