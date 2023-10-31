@@ -137,6 +137,10 @@ hr {
 	color: #fff;
 }
 
+.nav-toggle {
+	display: none;
+}
+
 .nav {
 	font-size: 14px;
 	text-transform: uppercase;
@@ -193,6 +197,7 @@ hr {
 	padding: 10px 0;
 	border: 0;
 	background: none;
+	cursor: pointer;
 
 	font-size: 0;
 	color: transparent;
@@ -1377,6 +1382,10 @@ hr {
 	/* меню */
 	.nav {
 		display: none;
+	}
+
+	.nav-toggle {
+		display: block;
 	}
 
 	/* section */
