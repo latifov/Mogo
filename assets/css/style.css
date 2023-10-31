@@ -1540,10 +1540,21 @@ hr {
 
 	.subscribe {
 		flex-wrap: wrap;
+		max-width: none;
+		/*элементы на всю ширину*/
+	}
+
+	.subscribe__input {
+		border: 1px solid #e7e7e7;
+		margin-bottom: 10px;
 	}
 
 	.subscribe__input,
 	.subscribe__btn {
 		width: 100%;
+	}
+
+	.footer_social-content {
+		margin: 10px 0;
 	}
 }
