@@ -1557,4 +1557,15 @@ hr {
 	.footer_social-content {
 		margin: 10px 0;
 	}
+
+	/* записи блога в футере */
+
+	.blogs__image {
+		width: 80px;
+		height: 50px;
+	}
+
+	.blogs__title {
+		font-size: 11px;
+	}
 }
