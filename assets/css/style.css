@@ -111,7 +111,18 @@ hr {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 1000;
+	z-index: 1000
+}
+
+.header--fixed {
+	padding: 10px 0;
+	background-color: #da9000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	transform: translate3d(0, 0, 0);
+	box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
 }
 
 .header__inner {
@@ -175,8 +186,8 @@ hr {
 
 .nav-toggle {
 	position: absolute;
-	top: 45px;
-	right: 30px;
+	top: 24px;
+	right: 24px;
 	z-index: 1;
 	width: 30px;
 	padding: 10px 0;
