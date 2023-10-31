@@ -1007,6 +1007,11 @@ hr {
 	padding-bottom: 65px;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 -15px;
+}
+
+.footer__col {
+	padding: 0 15px;
 }
 
 .footer__col--first {
@@ -1256,6 +1261,35 @@ hr {
 	.clients__item:last-child {
 		margin-bottom: 0;
 	}
+
+	/* Footer */
+
+	.footer__inner {
+		flex-wrap: wrap;
+	}
+
+	.footer__col--first {
+		width: 100%;
+	}
+
+	.footer__col--second,
+	.footer__col--third {
+		width: 50%;
+	}
+
+	/* instagram */
+
+	.instagram {
+		justify-content: flex-start;
+		/* это чтобы убрать отступы между элементами плитки*/
+	}
+
+
+	.instagram__item {
+		width: auto;
+		/* это убирает плиточность */
+		border: 1px solid #fff;
+	}
 }
 
 
@@ -1366,7 +1400,11 @@ hr {
 
 	.blog__item {
 		width: 100%;
+	}
 
+	.footer__col--second,
+	.footer__col--third {
+		width: 100%;
 	}
 }
 
