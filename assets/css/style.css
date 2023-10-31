@@ -52,6 +52,9 @@ hr {
 	justify-content: center;
 	width: 100%;
 	height: 100vh;
+	min-height: 820px;
+	position: relative;
+
 	background-color: var(--orange);
 	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 	/*	-webkit-background-size: cover;
@@ -1302,6 +1305,11 @@ hr {
 
 @media (max-width: 770px) {
 
+
+	.intro {
+		min-height: 650px;
+	}
+
 	/* меню */
 	.nav {
 		display: none;
@@ -1420,6 +1428,8 @@ hr {
 @media (max-width: 575px) {
 
 	/* Intro */
+
+
 	.intro__title {
 		font-size: 40px;
 	}
