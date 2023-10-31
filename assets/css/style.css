@@ -114,8 +114,7 @@ hr {
 	z-index: 1000
 }
 
-.header--fixed {
-	padding: 10px 0;
+.header.fixed {
 	background-color: #da9000;
 	position: fixed;
 	top: 0;
@@ -124,6 +123,11 @@ hr {
 	transform: translate3d(0, 0, 0);
 	box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
 }
+
+.header.active {
+	background-color: #da9000;
+}
+
 
 .header__inner {
 	display: flex;
@@ -137,6 +141,7 @@ hr {
 	color: #fff;
 }
 
+/* nav */
 .nav-toggle {
 	display: none;
 }
@@ -216,6 +221,21 @@ hr {
 	bottom: 0;
 	left: 0;
 	margin: auto;
+}
+
+.nav-toggle.active .nav-toggle__item {
+	background: none;
+}
+
+
+.nav-toggle.active .nav-toggle__item::before {
+	transform-origin: left top;
+	transform: rotate(45deg);
+}
+
+.nav-toggle.active .nav-toggle__item::after {
+	transform-origin: left bottom;
+	transform: rotate(-45deg);
 }
 
 .nav-toggle__item::before,
@@ -377,6 +397,8 @@ hr {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* card */
+
 .card {
 	margin-top: 80px -15px 0;
 	display: flex;
@@ -457,6 +479,8 @@ hr {
 	font-style: italic;
 	font-family: 'Roboto', sans-serif font-weight: 300;
 }
+
+/* Statistics */
 
 .statistics {
 	background-color: #95e1d3;
@@ -574,11 +598,11 @@ hr {
 	padding: 0 15px;
 }
 
+/* Accordion */
 .accordion {
 	text-align: left;
 }
 
-/* Accordion */
 
 .accordion__item {
 	border: 1px solid #e5e5e5;
@@ -649,6 +673,8 @@ hr {
 	color: #999;
 	font-weight: 300;
 }
+
+/* Reviews */
 
 .reviews {
 	padding: 0 110px;
@@ -738,6 +764,8 @@ hr {
 	right: 0;
 }
 
+/* Social */
+
 .social {
 	display: flex;
 	justify-content: center;
@@ -786,6 +814,8 @@ hr {
 	max-width: 100%;
 	height: auto;
 }
+
+/* Our works */
 
 .works {
 	display: flex;
@@ -845,6 +875,8 @@ hr {
 	font-family: 'Roboto', serif;
 }
 
+/* Our clients */
+
 .clients {
 	display: flex;
 	flex-wrap: wrap;
@@ -899,6 +931,9 @@ hr {
 
 	background-color: orange;
 }
+
+
+/* Blogs */
 
 .blog {
 	display: flex;
@@ -988,6 +1023,8 @@ hr {
 	color: #95e1d3
 }
 
+
+/* Map */
 
 .map__title {
 	color: #e93535;
@@ -1081,6 +1118,8 @@ hr {
 	justify-content: space-between;
 	margin: 0 -15px;
 }
+
+/* footer col */
 
 .footer__col {
 	padding: 0 15px;
@@ -1366,7 +1405,7 @@ hr {
 
 
 
-/* Планшет */
+/* Планшет 770*/
 
 @media (max-width: 770px) {
 
@@ -1376,12 +1415,12 @@ hr {
 	}
 
 	.header {
-		padding-top: 10px;
+		padding: 10px 0;
 	}
 
 	/* меню */
 	.nav {
-		/* display: none; */
+		display: none;
 		width: 100%;
 		position: absolute;
 		top: 100%;
@@ -1394,7 +1433,7 @@ hr {
 	.nav__link {
 		display: block;
 		margin: 0;
-		padding: 5px 20px;
+		padding: 8px 20px;
 		/* каждый пункт меню с новой строки */
 	}
 
@@ -1669,4 +1708,6 @@ hr {
 	.blogs__title {
 		font-size: 11px;
 	}
+
+	/* мобильный конец */
 }
