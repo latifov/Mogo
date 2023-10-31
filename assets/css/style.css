@@ -1535,4 +1535,15 @@ hr {
 	.section--clients {
 		background: #f8f8f8
 	}
+
+	/* Subscribe */
+
+	.subscribe {
+		flex-wrap: wrap;
+	}
+
+	.subscribe__input,
+	.subscribe__btn {
+		width: 100%;
+	}
 }
